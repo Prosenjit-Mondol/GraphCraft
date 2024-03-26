@@ -1,5 +1,5 @@
 (function () {
-    // clear the input field on load
+    //clear the input field on load.
     document.getElementById('adjMatInp').value = ""
 })();
 
@@ -42,8 +42,8 @@ var cy = cytoscape({
             }
         }
     ],
-    // zoomingEnabled: false, // disable zooming
-    // userZoomingEnabled: false // disable user zooming
+    //zoomingEnabled: false, // disable zooming
+    //userZoomingEnabled: false // disable user zooming
 });
 
 document.getElementById('myButton').addEventListener('click', function () {
